@@ -36,6 +36,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
     - Data Structures: Linked Lists, Binary Tree...
     - Generic Data Types
     - Pointer to function
+    - Sorting Algorithms
 
 
 ## Purpose

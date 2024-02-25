@@ -1,0 +1,22 @@
+Procedures:
+
+1. Print your name (use echo).
+2. Print the word OLDPWD.
+3. Create a new directory Lab2 (use mkdir).
+4. In Lab2 create a new directory TryDir.
+5. In Lab2 create a new directory EmptyDir.
+6. In Lab2 create a file named foo1 (use touch).
+7. In TryDir create 3 files foo1, foo2, foo3 (use touch only one time).
+8. Show the contents of the directory TryDir (use ls, ls -a, ls -l, ls -la, ls -latr).
+9. Change the timestamp of the file foo1 (is the timestamp indeed was modified?)
+10. Go back to the directory Lab2 (use cd ..).
+11. Print the value of the env. variable OLDPWD (use echo $OLDPWD)
+12. Comeback to TryDir (use cd ./TryDir).
+13. Print the value of the env. variable OLDPWD. (Do you see the difference?)
+14. Print the value of your name (used above in 1). What do you see?
+15. Check where are you.
+16. Write in lab2.sh all the above (1-15) commands.
+17. Remove the directory EmptyDir from Lab2 (use rm).
+18. Try to remove the directory TryDir from Lab2, using rm.
+19. Remove the directory TryDir from Lab2, (use rm -rf).
+20. Use man -k list. What do you see?

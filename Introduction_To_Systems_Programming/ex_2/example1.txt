@@ -1,0 +1,8 @@
+Number of sequences:	4
+Number of bps:      	1654
+
+#	Seq	Length	%G+C	Ns
+1	seq1	411	31.1	0
+2	seq2	408	33.3	4
+3	seq3	410	31.5	0
+4	seq4	425	33.9	0

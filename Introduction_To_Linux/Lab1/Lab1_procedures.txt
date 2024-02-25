@@ -1,0 +1,16 @@
+Procedures:
+
+1. Create directory MyLinuxDir (use mkdir).
+2. Go to MyLinuxDir (use cd).
+3. Create in MyLinuxDir 5 directories :
+- Lab1
+- two with the names starting with the capital letter B and
+- two of the same names, but starting with the small letter b.
+Note: Linux is case sensitive
+4. Show the contents of the directory (use ls).
+4. Go to MyLinuxDir/Lab1.
+5. Check where are you (use pwd).
+6. Open new file lab1.sh (use pico).
+7. Write in lab1.sh all the above (1-5) commands
+6. Use man to get information about pwd and ls
+5. Clear the screen (use clear).

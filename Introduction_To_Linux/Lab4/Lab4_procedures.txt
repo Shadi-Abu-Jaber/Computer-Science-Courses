@@ -1,0 +1,41 @@
+Procedures:
+
+1. Print the word PATH.
+
+2. Print the value of the env. variable PATH.
+
+3. Find in which directory the standard commands touch, ls and find are defined.
+
+4. Create a new directory Lab4.
+
+5. In Lab4 create 10 files:
+- 4 files which contain the letter c in their names
+- 6 files which contain a number in their names
+
+6. In Lab4 create a new directory SubLab4Dir.
+
+7. In SubLab4Dir create 5 files: 
+- 1 file which contain the letter k in the name
+- 3 files which contain a number in the names
+
+8. In Lab4 write bash script named FirstBash.sh which is doing the following:
+- Print the word PATH.
+- Print the value of the env. variable PATH.
+- Find in which directory the standard commands touch, ls and find are defined.
+Run this script and check that the results are correct.
+
+9. In Lab4 write bash script named FindFiles.sh which is doing the following:
+- show the contain of the directory Lab4.
+- print the list of the files located in Lab4 which contain the letter c in their names.
+- go to subdirectory SubLab4Dir.
+- show the contain of the subdirectory SubLab4Dir.
+- print list of the files located in SubLab4Dir which contain a number in their name.
+- print the name of the file located in SubLab4Dir which contain a letter k in its name.
+The name should contain the full-path name (for example ~/home/moshe/SubLab4Dir/klk1112klk.out)
+Run this script and check that the results are correct.
+
+10. In Lab4 write bash script named MathBash.sh
+- Ask 4 numbers in range (1-8) from the input
+- Print the sum and the product of these numbers
+- Rename the file of directory SubLab4Dir, which contains the letter k so the last letter of it will be one of the numbers you received from the input.
+For example if one of the input numbers was 2 and if SubLab4Dir contains file Mak.n, then after running of MathBash.sh, SubLab4Dir will contain (instead of this file), file named Mak.n2.

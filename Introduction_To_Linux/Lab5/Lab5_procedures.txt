@@ -1,0 +1,44 @@
+Procedures
+1. Check the value of HISTSIZE variable.
+
+2. Change the value of HISTSIZE to be 500.
+
+3. Run again the last command which change the value of HISTSIZE (use !e).
+
+4. Run the command history and then run one of the commands from the list of history, using !n, where n is the number of the command.
+
+5. Repeat the last command using !!
+
+6. Repeat the last touch command, using !to.
+
+6. Create Lab5 directory.
+
+7. In Lab5 write bash script named IsPositiveNumber.sh which is doing the
+following:
+- Ask the user to choose a number and put it in the variable.
+- Check if the number is positive, negative or zero and print a corresponding message.
+Run the program and check that it works properly.
+
+8. In Lab5 write bash script named IsInRange.sh which is doing the following:
+- Ask the user to choose a number and put it in the variable.
+- Use only one if command to check if the number is between 10 and 100 and print a corresponding message.
+Run the program and check that it works properly.
+
+9. In Lab5 write bash script named numOfFiles.sh which is doing the
+following:
+- Ask for a number and put it in the variable.
+- Check if the number of the files and directories of Lab5 together is equal to the given number and print a corresponding message.
+
+10. In Lab5 write bash script named MoveFile.sh which is doing the following:
+- Ask a user to choose a string and put it in the variable NAME.
+- Check if in Lab5 there is a file with the name defined in the variable NAME.
+- If no, create such file.
+- Check if in Lab5 there is a directory with the name NAMEdir, where NAME was defined above.
+- If there is no directory with such name, make it.
+- Move the file defined by NAME into the directory NAMEdir.
+
+For example, if the user enters NAME=foo and there is file foo in Lab5, it will
+check if there is directory foodir. If such directory does not exist, it will create it.
+Then the file foo will be moved into foodir.
+To run and check the program, create few files in advance in Lab5. Then run
+the program and check that it works properly for various cases. 

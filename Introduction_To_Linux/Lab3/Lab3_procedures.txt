@@ -1,0 +1,21 @@
+Procedures:
+
+1. Create a new directory Lab3.
+2. In Lab3 create a new directory TryDir.
+3. In TryDir create 3 files foo1.dat, foo2.g, boo3.gt6, boo.
+4. Open the file foo1.dat (use pico) and write here your name, and id.
+5. Open the file foo2.g and write the name of your best friend.
+6. Display foo1.dat using cat and more.
+7. Display both foo1.dat and foo2.g (Use, for example cat with 2 parameters)
+8. Show the names of the files starting with the letter f.
+9. Show the names of the files which contain the letter g.
+10. Show the names of the files which contain a number.
+12. Make a copy of the file foo1.dat and call it newFoo. 
+13. Display the contain of the file newFoo. Is it identical to foo1.dat?
+14. Rename the file newFoo to be Foo2.
+15. Move the file Foo2 to the directory Lab3.
+16. Write in lab3.sh all the above (1-15) commands.
+17. Show the first 5 lines of lab3.sh.
+18. Show the last 5 lines of lab3.sh.
+19. Show the lines 5-7 of lab3.sh (use cat, head, tail and pipeline).
+20. Display the contain of the files which start with the letter f and then show the second line only of the result. 

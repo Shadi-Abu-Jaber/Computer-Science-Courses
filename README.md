@@ -33,7 +33,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
     - Macros and the preprocessor
     - Compilation
     - Working with Bits
-    - Data Structures
+    - Data Structures: Linked Lists, Binary Tree...
     - Generic Data Types
     - Pointer to function
 

@@ -26,7 +26,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 - ### Introduction To Systems Programming
     - Pointers 
     - Memory Managment
-    - Passing arguments to a program
+    - Passing arguments to a program (main)
     - Working with files
     - Modular programming
     - Abstract Data Types (ADT)

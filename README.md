@@ -8,8 +8,14 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 - Introduction To Systems Programming
 
 ## Technologies and Topics Covered
-- Bash
-- C Programming Language
+
+| Programming Languages | Concepts and Topics                |
+|-----------------------|-----------------------------------|
+| Bash                  |Basic Commands                     |
+|                       |File Permissions and Ownership     |
+|                       |Shell Scripting                    |
+| C                     |Memory Management                  |
+
 
 ## Purpose
 This repository serves multiple purposes:

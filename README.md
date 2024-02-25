@@ -9,12 +9,33 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 
 ## Technologies and Topics Covered
 
-| Programming Languages | Concepts and Topics                |
-|-----------------------|-----------------------------------|
-| Bash                  |Basic Commands                     |
-|                       |File Permissions and Ownership     |
-|                       |Shell Scripting                    |
-| C                     |Memory Management                  |
+- ### Introduction To Linux
+  - Connection to the Linux operating system (ssh)
+  - Work with command line
+  - Basic Commands
+  - Linux file system
+  - Work with files
+  - Linux I/O
+  - WildCards
+  - Pipeline
+  - Types of quotation marks
+  - Abbreviations (alias)
+  - Environment Variables
+  - Bash Scripts
+
+- ### Introduction To Systems Programming
+    - Pointers 
+    - Memory Managment
+    - Passing arguments to a program
+    - Working with files
+    - Modular programming
+    - Abstract Data Types (ADT)
+    - Macros and the preprocessor
+    - Compilation
+    - Working with Bits
+    - Data Structures
+    - Generic Data Types
+    - Pointer to function
 
 
 ## Purpose

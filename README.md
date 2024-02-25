@@ -6,7 +6,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 ## Courses Included
 - Intoduction To Linux
 - Introduction To Systems Programming
-- 
+
 ## Technologies and Topics Covered
 - Bash
 - C Programming Language

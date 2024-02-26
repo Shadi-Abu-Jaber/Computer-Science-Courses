@@ -10,6 +10,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 ## Technologies and Topics Covered
 
 - ### Introduction To Linux
+  - Bash Scripts
   - Connection to the Linux operating system (ssh)
   - Work with command line
   - Basic Commands
@@ -21,9 +22,8 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
   - Types of quotation marks
   - Abbreviations (alias)
   - Environment Variables
-  - Bash Scripts
 
-- ### Introduction To Systems Programming
+- ### Introduction To Systems Programming (C Programming Language)
     - Pointers 
     - Memory Managment
     - Passing arguments to a program (main)

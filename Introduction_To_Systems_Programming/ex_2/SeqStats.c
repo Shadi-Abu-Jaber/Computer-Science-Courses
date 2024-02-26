@@ -1,7 +1,3 @@
-/******************************************
-* Student name: Shadi Abu Jaber
-******************************************/
-
 #include "SeqStats.h"
 
 /******************************************************************************/
@@ -47,12 +43,14 @@ SeqStats *CreateSeqStats(char *seq_name, char *seq) {
 
     SeqStats *new_seq = (SeqStats *) malloc(sizeof(SeqStats));
     if (!new_seq) {
-        printf("Failed To Allocate Memory!\n");
+        fprintf(stderr, "Failed To Allocate Memory!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         exit(1);
     }
 
     if (strlen(seq_name) > MAX_SEQ_NAME_LEN) {
-        printf("Sequence name '%s' is longer than 256 chars!!!\n",seq_name);
+        printf("Sequence name '%s' is longer than 256 chars!!!\n", seq_name);
         exit(1);
     }
     strcpy(new_seq->name, seq_name);
@@ -80,7 +78,9 @@ void CopySeqStats(SeqStats *seq1, SeqStats *seq2) {
 void SwitchSeqStats(SeqStats *seq1, SeqStats *seq2) {
     SeqStats *tmp_seq = (SeqStats *) malloc(sizeof(SeqStats));
     if (!tmp_seq) {
-        printf("Failed To Allocate Memory!\n");
+        fprintf(stderr, "Failed To Allocate Memory!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         exit(1);
     }
 

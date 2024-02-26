@@ -1,7 +1,3 @@
-/******************************************
-* Student name: Shadi Abu Jaber
-******************************************/
-
 #include "SeqStatsContainer.h"
 
 /******************************************************************************/
@@ -9,13 +5,18 @@ SeqStatsContainer *CreateSeqStatsContainer() {
 
     SeqStatsContainer *container = malloc(sizeof(SeqStatsContainer));
     if (!container) {
-        printf("Failed To Allocate Memory!\n");
+        fprintf(stderr, "Failed To Allocate Memory!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         exit(1);
     }
 
     container->seq_objects = calloc(1, sizeof(SeqStats *));
     if (!container->seq_objects) {
-        printf("Failed To Allocate Memory!\n");
+        fprintf(stderr, "Failed To Allocate Memory!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
+        free(container);
         exit(1);
     }
 
@@ -29,7 +30,9 @@ SeqStatsContainer *CreateSeqStatsContainer() {
 char *memory_allocation(int count) {
     char *ptr = calloc(count, sizeof(char));
     if (!ptr) {
-        printf("Failed To Open File!\n");
+        fprintf(stderr, "Failed To Allocate Memory!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         exit(1);
     }
     return ptr;
@@ -46,7 +49,9 @@ void add_seq_to_container(SeqStatsContainer **container, SeqStats *new_seq) {
                                          (new_size + 1) * sizeof(SeqStats *));
 
     if (!new_seq_objects) {
-        printf("Failed To Allocate Memory!\n");
+        fprintf(stderr, "Failed To Allocate Memory!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         for (i = 0; i < (*container)->num_seqs - 1; i++) {
             free((*container)->seq_objects[i]);
         }
@@ -68,6 +73,8 @@ int AddSeqsToSeqStatsContainer(SeqStatsContainer *container,char *file_name) {
     FILE *file = fopen(file_name, "r");
     if (!file) {
         fprintf(stderr,"Failed To Open File!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         exit(1);
     }
 
@@ -117,6 +124,8 @@ int NumSeqsInFile(char *file_name) {
     FILE *file = fopen(file_name, "r");
     if (!file) {
         fprintf(stderr,"Failed To Open File!\n");
+        fprintf(stderr, "File name is %s\n", __FILE__);
+        fprintf(stderr, "Line is %d\n", __LINE__);
         exit(1);
     }
 

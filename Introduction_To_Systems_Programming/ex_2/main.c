@@ -1,7 +1,3 @@
-/******************************************
-* Student name: Shadi Abu Jaber
-******************************************/
-
 #include "SeqStatsContainer.h"
 
 int main(int argc, char **argv) {

@@ -7,38 +7,6 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 - Intoduction To Linux
 - Introduction To Systems Programming
 
-## Technologies and Topics Covered
-
-- ### Introduction To Linux
-  - Bash Scripts
-  - Connection to the Linux operating system (ssh)
-  - Work with command line
-  - Basic Commands
-  - Linux file system
-  - Work with files
-  - Linux I/O
-  - WildCards
-  - Pipeline
-  - Types of quotation marks
-  - Abbreviations (alias)
-  - Environment Variables
-
-- ### Introduction To Systems Programming (C Programming Language)
-    - Pointers 
-    - Memory Managment
-    - Passing arguments to a program (main)
-    - Working with files
-    - Modular programming
-    - Abstract Data Types (ADT)
-    - Macros and the preprocessor
-    - Compilation
-    - Working with Bits
-    - Data Structures: Linked Lists, Binary Tree...
-    - Generic Data Types
-    - Pointer to function
-    - Sorting Algorithms
-
-
 ## Purpose
 This repository serves multiple purposes:
 - **Personal Archive:** It acts as a personal archive of my academic journey, allowing me to revisit and showcase my coursework.

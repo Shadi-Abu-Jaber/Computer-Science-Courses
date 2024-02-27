@@ -1,6 +1,17 @@
 # Systems Programming course 
+
+ ## Exercise 1:
+ * Program designed to analyze DNA sequences and motifs, evaluates whether the provided sequence
+   is a gene or a CRISPR spacer and verifies the legality of the input motif.
+ * Upon execution, it prompts the user for input, conducts the analyses,
+   and outputs the occurrences of the motif within the sequence.
+
+
+
+
+
+
  ## Exercise 2:
- 
  * reading and processing fasta files (files that contains a DNA sequences) then print each DNA sequence Detailes like
    Sequence name, length, percentage of  appearance of 'C' and 'G', number of times 'N' appeared.
    

@@ -1,14 +1,27 @@
 # Systems Programming course 
 
+## Technologies and Topics Covered
+   - C Programming Language
+   - Pointers 
+   - Memory Managment
+   - Passing arguments to a program (main)
+   - Working with files
+   - Modular programming
+   - Abstract Data Types (ADT)
+   - Macros and the preprocessor
+   - Compilation
+   - Working with Bits
+   - Data Structures: Linked Lists, Binary Tree...
+   - Generic Data Types
+   - Pointer to function
+   - Sorting Algorithms
+     
+
  ## Exercise 1:
  * Program designed to analyze DNA sequences and motifs, evaluates whether the provided sequence
    is a gene or a CRISPR spacer and verifies the legality of the input motif.
  * Upon execution, it prompts the user for input, conducts the analyses,
    and outputs the occurrences of the motif within the sequence.
-
-
-
-
 
 
  ## Exercise 2:

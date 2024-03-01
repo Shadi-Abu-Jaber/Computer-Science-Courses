@@ -1,13 +1,13 @@
 ## Introduction To Linux
 
 - ### Technologies and Topics Covered
-  - Bash Scripts
   - Connection to the Linux operating system (ssh)
   - Work with command line
   - Basic Commands
   - Linux file system
   - Work with files
-  - Linux I/O
+  - Bash Scripts
+  - Input/Output Redirection
   - WildCards
   - Pipeline
   - Types of quotation marks

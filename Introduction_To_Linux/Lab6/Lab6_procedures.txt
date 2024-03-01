@@ -1,0 +1,50 @@
+1. Create directory Lab6.
+
+2. Create a shortcut named myLs which will work exactly like the command ls.
+
+3. Create a shortcut named LsL, which will execute ls -l.
+
+4. Create a shortcut which will first go to the home directory, then go to directory Lab6 and then will show the contain of Lab6.
+
+5. Using redirection, put the aliases which were created by you in 2-4, into file MyAlias.sh in Lab6 (see example in Note 1).
+
+Run the file and check that it works properly (see Note 2).
+
+Notes:
+1). The file MyAlias.sh should contain the definitions of the alias and their runs.
+2). To run MyAlias.sh, instead of the usual method ./MyAlias.sh, use
+source MyAlias.sh.
+Why? Because when we use the normal ./ method, the subshell is opened and
+the definitions of the new commands obtained from the alias are not saved in
+the global shell. So, in this case you won't see the alias results. However, when
+a source command is used, we continue to work in the global shell. So all the
+new settings are saved there.
+
+6. In Lab6 create file named WritersFile which contains the First names, Second names, years of birth, countries of birth of 5 famous writers.
+The fields will be separated by *
+For example, one line of this file can be:
+Lewis*Carroll*1832*England
+
+7. Sort the WritersFile
+(a) by the first name and put the result into the file SortedByFirstName.
+(b) by the country of birth and put the result into the file SortedByCountry.
+(c) by the year of birth in increasing order and put the result into the file SortedByYearInc.
+(d) by the year of birth in decreasing order and put the result into the file SortedByYearDec.
+
+8. Define array named TestArray and put in its first field the first and the
+second name of one of the authors you like. In the second field its year of birth.
+And in the third field the country of his birth.
+Print the contain of TestArray and its length. (Use @ and #)
+Then redirect all the commands of TestArray, used above, into a file
+TestArrayFile.sh in Lab6. Run this file and check.
+
+9. In Lab6 write bash script named MathArray.sh which is doing the following:
+- Ask for the positive number and put it into NUM
+- Ask for NUM numbers and define array which contains these numbers.
+- Go throgh the array and sum the values. Then print the sum of the array.
+- Go throgh the array, find and print the maximum of array.
+
+10. In Lab6 write bash script named Files.sh which is looking for all the files
+which contain the letter k and then change their name so they finish with the
+running number, strating with 1. The resulting list of the files will be written in
+the increasing order of the symbol which comes after the letter k in file FileList.

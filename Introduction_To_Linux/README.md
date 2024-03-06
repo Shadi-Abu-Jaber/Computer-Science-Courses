@@ -1,7 +1,7 @@
 ## Introduction To Linux
 
 - ### Technologies and Topics Covered
-  - Connection to the Linux operating system (ssh)
+  - Connection to the Linux operating system
   - Work with command line
   - Basic Commands
   - Linux file system

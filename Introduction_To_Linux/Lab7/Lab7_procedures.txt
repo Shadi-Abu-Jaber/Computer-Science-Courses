@@ -1,0 +1,64 @@
+1.Create directory Lab7.
+
+2. In file MathFunc.sh:
+
+a). write a function called mult which multiplies together a sequence of numbers.
+For example, mult 2 4 6 will print 48.
+
+b). Write a function called isEven that prints 1, if a number is even or 0, if a number is not even.
+For example, isEven 24 will print 1.
+
+c). Write a function called numOfEvens which prints the number of even numbers when provided with a sequence of numbers.
+Use isEven when writing this function.
+For example, numOfEvens 2 5 7 5 8 93 will print 2.
+
+d). Write a function called fibo which prints the number of fibonaci numbers specified.
+For example, fibo 4 will print 0 1 1 2 and fibo 10 will print 0 1 1 2 3 5 8 13 21 34
+
+e). Write a function called minMax which prints the maximum and minimum values of a sequence of numbers.
+For example, minMax 2 67 4 21 9 100 4 will print min=2, max=100.
+
+f). Write a script that takes sequence of numbers, asks the user to choose one of the above functions a), c) or e)
+then calls the chosen function with this sequence of numbers and prints the result on the screen. If a wrong option is
+selected, the program will send an appropriate message to the Errors.er file.
+For example, running the command
+> ./ MathFunc.sh 4 1 2 1
+and choosing the function a), will print:
+The result of mult is 8.
+
+3). In Lab7 create a file named ComposersFile which contains the First names, Second names, years of birth, countries
+of birth of at least 5 famous composers. The fields will be separated by spaces
+For example, one line of this file can be:
+Wolfgang Mozart 1756 Austria.
+
+a). Write a function first_names which will create file named FirstYear with First Names and years of birth only of the composers.
+
+b). Write a script Composers.sh which will takes as input one parameter (FN, SN, Year, Country) 
+and prepare file which name is identical to the given parameter and it contains only the information
+about the First Name/Second name/Year of Birth/Country of birth.
+For example:
+- Composers.sh FN will prepare file named FN which contains the first names of the composers only.
+- Composers.sh Year will prepare file named Year which contains the years of the birth of the composers only.
+
+4). Write a script Arrange.sh that transfers files (which are not directories)
+from the current directory into sub-directories according to the following rules.
+
+For any file (which is not directory):
+
+1. If there is a sub-directory of the current directory whose name is the same as
+the first 4 letters in the name of the file, the file will be moved into the
+directory. (Note that this moves the file and not copies it).
+
+2. If condition 1 is not met, and there are at least two additional files in the
+current directory that are not directories, so that the first 4 letters in their name
+are the same as the first 4 letters in the file name, the program will create a
+new sub-directory whose name is the same as the first 4 letters of the file
+name, and the file will be moved into this sub-directory.
+
+For example, If the following files exist in the current directory:
+file1 file2 file3 prog1 prog2 prog script1 script2,
+when only prog is a directory
+then, after running the program Arrange.sh, in the current directory will be
+the following files: file, script1, script2, prog.
+- the files file1, file2, file3 will be in the directory file.
+- the files prog1 and prog2 will be in the directory prog in addition to the other files/directories located in prog.

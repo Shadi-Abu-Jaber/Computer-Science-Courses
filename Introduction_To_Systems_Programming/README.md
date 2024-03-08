@@ -30,6 +30,12 @@
    
  * Note: In FASTA format the line before the DNA sequence, called the FASTA definition line, must begin with a carat (">")
 
+
+## Exercise 3:
+* Football stadium ticket purchase management program
+* We used bits to save seats info (this assignment aimed to practice working with bits)
+ 
+ 
  ## Exercise 5:
  * Phonbook Program :)
    

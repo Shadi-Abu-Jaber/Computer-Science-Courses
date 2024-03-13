@@ -7,6 +7,7 @@
   - Linux file system
   - Work with files
   - Bash Scripts
+  - control structures
   - Input/Output Redirection
   - WildCards
   - Pipeline

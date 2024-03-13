@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/cs212955108/Lab4/
+cd ~/Lab4/
 ls
 ls *c*
 cd SubLab4Dir

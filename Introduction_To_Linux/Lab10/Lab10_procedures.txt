@@ -28,16 +28,25 @@ In any case where the program continues, create the output folder. To receive in
 5. For the song Here comes the sun (found in the file herecomesthesun.txt), 
 print the number of times the word comes appears in words only. 
 
-6. Print the average number of words in each song, according to the level of precision that bash allows (rounding to whole numbers). The average refers only to words without the name of the song.
+6. Print the average number of words in each song, according to the level of precision that bash allows (rounding to whole numbers). 
+The average refers only to words without the name of the song.
 
 7. Create a file named beatles.most-frequent-word.txt in the output folder where you write the name of 
 each Beatles song and the most common word in the song with the number of times it appears. See an example in the sample output.
 
-8. Create a file named beatles.word-occurrences.txt into which you will print all the words that appear in the Beatles' songs and their total number of occurrences, from the word that appears the most to the word that appears the least. The count should not include the names of the songs.
+8. Create a file named beatles.word-occurrences.txt into which you will print all the words that appear in the Beatles' songs 
+and their total number of occurrences, from the word that appears the most to the word that appears the least. 
+The count should not include the names of the songs.
 
-Remove the following characters from the text: period: ., opening brackets: ), closing brackets: (, exclamation mark: !, comma: , the word count should ignore case (ie: hello and Hello should be counted together). Look for the arguments (flags) for the relevant commands.
+Remove the following characters from the text: period: ., opening brackets: ), closing brackets: (, exclamation mark: !, comma: , 
+the word count should ignore case (ie: hello and Hello should be counted together). Look for the arguments (flags) for the relevant commands.
 
-9. Create a file called beatles.song-names-abc.txt into which you will print the number of song names that begin with each letter of the English alphabet. That is: some song names start with A, some with B, etc. It is possible to print only the letters with which a song's name begins. The print should be in alphabetical order.
+9. Create a file called beatles.song-names-abc.txt into which you will print the number of song names
+that begin with each letter of the English alphabet. That is: some song names start with A, some with B, etc. 
+It is possible to print only the letters with which a song's name begins. The print should be in alphabetical order.
 
-10. Write code that receives a word from the user in a loop (without spaces, no need to check) and prints the number of songs, not including the names of the songs, in which the word appears as a word or as part of another word (for example the will be counted even when it appears in other). The reference
-For the word it is without difference in hello (case and Hello are considered the same word). To exit the loop press the key that uses X
+10. Write code that receives a word from the user in a loop (without spaces, no need to check) and prints the number of songs, 
+not including the names of the songs, in which the word appears as a word or as part of another word 
+(for example the will be counted even when it appears in other). The reference
+For the word it is without difference in hello (case and Hello are considered the same word). 
+To exit the loop press the key that uses X

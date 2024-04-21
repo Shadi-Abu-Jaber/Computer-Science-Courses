@@ -1,0 +1,73 @@
+1.Create directory Lab8.
+
+2. 
+a) Create file StudentsFile which contains the First name, Second name, year of birth and GPA 
+(Grade point average) of at least 7 students. The fields will be separated by spaces.
+
+b) Write a function calcStdNames which receives as a parameter StudentsFile and prints the first names
+of the students and number of the students with this name. The output should be sorted by the name in alphabet order.
+
+For example, if StudentsFile is: 
+
+Moshe Porat 1990 85.4
+Irit Rup 2002 74.2
+Moshe Moshonov 1998 56.3 
+Olga Ivanova 1999 82.1 
+Muhamad Haib 2001 86.7 
+Moshe Perez 2006 92.3 
+Muhamad Musa 2005 75.3
+
+Then calcStdNames will print 1 Irit
+3 Moshe
+2 Muhamad
+1 Olga
+
+c) Write a function CalcGPA which receives as parameters StudentsFile and number YEAR in
+a range 1900-2010 (check that input is valid) and prints list of the students from StudentsFile 
+which were born during YEAR year. The list will be sorted by the GPA.
+
+d). Write a script studentChecker.sh which receives as a parameter StudentsFile,
+calls the function calcStdNames and puts the results into a file Names.txt. 
+Then the script calls the function CalcGPA and puts the results into a file GPA.txt.
+
+
+3. Write a script checkPythonFile.sh that accepts two parameters: a python file and a text file.
+The script runs the python file and puts the results into file named as the python file,
+without .py plus Result.txt and compares the result with a given text file. If there are no differences
+between the files, the script prints “Your python code is correct”. Otherwise, it prints ”Your python code is wrong.”
+
+4. Write a script named UniqD.sh which accepts a file (the file can be unsorted) and implements the Linux command uniq -d.
+Note: the commands uniq (with any flags) and sort -u can not be used in the script.
+
+5. Hi-tech company Moogle has decided to open a new branch in Haifa, announced a day of interviews at
+the Faculty of Computer Science in Tel-Hai. There are several interviewers, including the Moogle manager.
+Each interviewer gives a score for the interviewee between 0 and 100.
+The final grade will be determined by weighting all the grades.
+The manager has a right of veto: an interviewee to whom the manager has given a NO can not be accepted for the job.
+At the end of the interviews, each interviewer prepares a file in the following format about the people he interviewed .
+Here there are 4 fields separated by spaces. The name of the file is <interviewer's name>.grades.
+
+For example, File eyal.grades:
+031243129 Moshe Levi 60
+444422267 Shimon Cohen 90 
+555782311 David David 100
+
+File Moogle.grades:
+031243129 Moshe Levi 57 
+555782311 David David -NO- 
+444422267 Shimon Cohen 80
+
+Write a script called BestToWork.sh that checks these .grades files and return the best group of interviewees.
+The script will receive as a parameter the number of places and will return such a number of outstanding
+(with a highest score) interviewees sorted by degree of success.
+If there are not enough interviewees who have been interviewed / passed the interview,
+the script will print a message: "Not enough interviewees"
+
+For example, for the running: >BestToWork.sh 2
+On the two files in the example, we get:
+1) 444422267 Shimon Cohen
+2) 031243129 Moshe Levy
+
+Notes:
+- Assume that the existing input files are correct
+- It can be assumed that the same interviewers interviewed all the people

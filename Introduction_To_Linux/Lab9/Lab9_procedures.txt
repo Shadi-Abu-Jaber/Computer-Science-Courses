@@ -1,0 +1,47 @@
+1.Create directory Lab9.
+
+2. Write a script grepN.sh which implements the linux command grep -n using while command.
+Note: grep command can not be used in this script.
+
+3. Write a script fact.sh which contains a recursion function fact. The script receives
+a positive number n, calculates and prints n!.
+
+4. Write a script long.sh which runs in the background the script fact.sh with n=20. And then runs infinite for loop.
+Next, in the shell show the list of the currently running processes (send this list to the out file) and kill the
+script long.sh then send again the list of the currently running processes to out file.
+
+5. Write a script filesInPATH.sh that takes string PERMITIONS and for each directory in
+the PATH env. var. prints a number of files which have given permissions.
+
+For example,
+> ./filesInPATH “-rwxr-xr-x” will print number of files which have -rwxr-xr-x permission in all the directories defined in PATH.
+
+6. Write a script details.sh which will print the date when the program is running, 
+following by the name of the user who runs this program and the name of the host.
+Then the script will show the list of the alias and of the env. variables defined for this user.
+Finally, the script will check if the last command used in the script was executed correctly 
+(hint: use an exit code) and print an appropriate message.
+
+Note: Run this script using > source details.sh
+
+7. Write script bestPlayer.sh, using the following steps:
+
+a). Write a function search that accepts a string and file names and prints all the
+lines appearing in these files that contain the requested string.
+
+b). Given a file called football.txt that contains data on goals scored in football matches.Each line in the file indicates
+- the name of the player; the number of goals he scored in the match held on a certain date;
+the name of the team he played for and the name of the opposing team.
+Write a function called player which will receive as a parameter the name of a player and will 
+print all the lines with his name from the football.txt file and the sum of the number of goals he scored.
+
+c). Write a function to rank players named best_player which will receive a list of player names on the
+command line and print the name of the player who scored the most goals.
+
+If there are several players who scored the most goals, the names of all players will be printed. 
+Each player's name and the number of goals scored must be printed.
+
+Notes to a)-c):
+- Assume that the existing input file is correct.
+- Above file football.txt is given only as an example. 
+- Do not use temporary files in your solution!

@@ -6,6 +6,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 ## Courses Included
 - Intoduction To Linux
 - Introduction To Systems Programming
+- Object Oriented Programming And Java
 
 ## Purpose
 This repository serves multiple purposes:

@@ -1,4 +1,4 @@
-- Introduction to numerical systems, logic gate using a diagram, truth table and Boolean function, wave diagram, laws of Boolean algebra
+- Introduction to digital systems, logic gate using a diagram, truth table and Boolean function, wave diagram, laws of Boolean algebra
 
 - De Morgan's laws, planning using a truth table and Boolean expressions, control using logic gates
 

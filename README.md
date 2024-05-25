@@ -5,7 +5,7 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 
 ## Courses Included
 - Intoduction To Linux (100)
-- Introduction To Systems Programming
+- Introduction To Systems Programming (90)
 - Object Oriented Programming in Java
 - Digital systems and Introduction to Computer Architecture
 

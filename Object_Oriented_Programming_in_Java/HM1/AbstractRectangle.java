@@ -1,3 +1,7 @@
+/**
+ * AbstractRectangle is an abstract class that represents a rectangle.
+ * It defines the common behavior that all rectangle types should implement.
+ */
 abstract public class AbstractRectangle implements Rectangle {
     public static final int POINTS_IN_RECT = 4;
 

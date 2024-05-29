@@ -1,3 +1,6 @@
+/**
+ * DimensionRectangle represents a rectangle defined by its top-left corner and dimensions.
+ */
 public class DimensionRectangle extends AbstractRectangle {
     private Point bottomLeft;
     private double width;

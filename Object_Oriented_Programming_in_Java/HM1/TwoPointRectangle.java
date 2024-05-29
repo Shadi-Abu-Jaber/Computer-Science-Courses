@@ -1,3 +1,7 @@
+
+/**
+ * TwoPointRectangle represents a rectangle defined by its top-left and bottom-right corners.
+ */
 public class TwoPointRectangle extends AbstractRectangle {
 
     private Point bottomRight;

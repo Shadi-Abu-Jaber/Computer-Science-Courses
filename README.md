@@ -1,7 +1,9 @@
 # Computer Science Courses
 
 ## Overview
-Welcome to the repository for Shadi's Computer Science courses from Tel-Hai College. Here, you'll find a collection of projects, assignments, and labs from various courses I completed during my time at Tel-Hai College.
+Welcome to the repository for my Computer Science courses. 
+
+Here, you'll find a collection of projects, assignments, and labs from various courses I completed during my time at Tel-Hai College.
 
 ## Courses Included
 - Intoduction To Linux.

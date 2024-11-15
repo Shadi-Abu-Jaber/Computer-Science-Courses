@@ -8,6 +8,9 @@ Welcome to the repository for Shadi's Computer Science courses from Tel-Hai Coll
 - Introduction To Systems Programming.
 - Object Oriented Programming in Java.
 - Digital systems and Introduction to Computer Architecture.
+- Data Structures
+- C++ Programming Language
+- Scientific Computing
 
 
 ## Purpose
